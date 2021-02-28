@@ -19,10 +19,6 @@ gdjs.New_32scene4Code.GDNewObject8Objects1= [];
 gdjs.New_32scene4Code.GDNewObject8Objects2= [];
 gdjs.New_32scene4Code.GDNewObject7Objects1= [];
 gdjs.New_32scene4Code.GDNewObject7Objects2= [];
-gdjs.New_32scene4Code.GDcheatObjects1= [];
-gdjs.New_32scene4Code.GDcheatObjects2= [];
-gdjs.New_32scene4Code.GDstateObjects1= [];
-gdjs.New_32scene4Code.GDstateObjects2= [];
 gdjs.New_32scene4Code.GDNewObjectObjects1= [];
 gdjs.New_32scene4Code.GDNewObjectObjects2= [];
 gdjs.New_32scene4Code.GDNewObject2Objects1= [];
@@ -141,12 +137,7 @@ gdjs.New_32scene4Code.eventsList2(runtimeScene);} //End of subevents
 
 
 {
-gdjs.copyArray(runtimeScene.getObjects("NewObject7"), gdjs.New_32scene4Code.GDNewObject7Objects1);
-gdjs.copyArray(runtimeScene.getObjects("state"), gdjs.New_32scene4Code.GDstateObjects1);
-{for(var i = 0, len = gdjs.New_32scene4Code.GDstateObjects1.length ;i < len;++i) {
-    gdjs.New_32scene4Code.GDstateObjects1[i].setString((( gdjs.New_32scene4Code.GDNewObject7Objects1.length === 0 ) ? "" :gdjs.New_32scene4Code.GDNewObject7Objects1[0].getString()));
 }
-}}
 
 }
 
@@ -176,10 +167,6 @@ gdjs.New_32scene4Code.GDNewObject8Objects1.length = 0;
 gdjs.New_32scene4Code.GDNewObject8Objects2.length = 0;
 gdjs.New_32scene4Code.GDNewObject7Objects1.length = 0;
 gdjs.New_32scene4Code.GDNewObject7Objects2.length = 0;
-gdjs.New_32scene4Code.GDcheatObjects1.length = 0;
-gdjs.New_32scene4Code.GDcheatObjects2.length = 0;
-gdjs.New_32scene4Code.GDstateObjects1.length = 0;
-gdjs.New_32scene4Code.GDstateObjects2.length = 0;
 gdjs.New_32scene4Code.GDNewObjectObjects1.length = 0;
 gdjs.New_32scene4Code.GDNewObjectObjects2.length = 0;
 gdjs.New_32scene4Code.GDNewObject2Objects1.length = 0;
