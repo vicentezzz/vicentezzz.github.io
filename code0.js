@@ -127,7 +127,7 @@ gdjs.New_32scene3Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.New_32scene3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.New_32scene3Code.conditionTrue_1 = gdjs.New_32scene3Code.condition1IsTrue_0;
-gdjs.New_32scene3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9136012);
+gdjs.New_32scene3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9147492);
 }
 }}
 if (gdjs.New_32scene3Code.condition1IsTrue_0.val) {
