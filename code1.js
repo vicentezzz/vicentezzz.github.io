@@ -1044,6 +1044,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.New_32sceneCode.GDP
 }
 }{runtimeScene.getVariables().getFromIndex(3).setNumber(0);
 }{gdjs.evtTools.sound.playSound(runtimeScene, "life lost sound.wav", false, 100, 1);
+}{runtimeScene.getVariables().get("playerHealth").setNumber(100);
 }
 { //Subevents
 gdjs.New_32sceneCode.eventsList13(runtimeScene);} //End of subevents
@@ -1753,9 +1754,8 @@ gdjs.copyArray(runtimeScene.getObjects("score"), gdjs.New_32sceneCode.GDscoreObj
     gdjs.New_32sceneCode.GDscoreObjects1[i].setString("1000");
 }
 }{for(var i = 0, len = gdjs.New_32sceneCode.GDHealthObjects1.length ;i < len;++i) {
-    gdjs.New_32sceneCode.GDHealthObjects1[i].setString(gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("playerHealth"))));
+    gdjs.New_32sceneCode.GDHealthObjects1[i].setString("Health:" + "99999");
 }
-}{runtimeScene.getVariables().get("playerHealth").setNumber(999999);
 }
 { //Subevents
 gdjs.New_32sceneCode.eventsList18(runtimeScene);} //End of subevents
