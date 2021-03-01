@@ -767,7 +767,7 @@ gdjs.New_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.distanceTest(
 gdjs.copyArray(runtimeScene.getObjects("EnemyBullet"), gdjs.New_32sceneCode.GDEnemyBulletObjects2);
 /* Reuse gdjs.New_32sceneCode.GDPlantObjects2 */
 {for(var i = 0, len = gdjs.New_32sceneCode.GDPlantObjects2.length ;i < len;++i) {
-    gdjs.New_32sceneCode.GDPlantObjects2[i].getBehavior("FireBullet").Fire((gdjs.New_32sceneCode.GDPlantObjects2[i].getPointX("")) - 50, (gdjs.New_32sceneCode.GDPlantObjects2[i].getPointY("")) + 150, gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDEnemyBulletObjects2Objects, 0, -(500), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
+    gdjs.New_32sceneCode.GDPlantObjects2[i].getBehavior("FireBullet").Fire((gdjs.New_32sceneCode.GDPlantObjects2[i].getPointX("")) + 150, (gdjs.New_32sceneCode.GDPlantObjects2[i].getPointY("")) + 150, gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDEnemyBulletObjects2Objects, 0, -(500), (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
 }{for(var i = 0, len = gdjs.New_32sceneCode.GDPlantObjects2.length ;i < len;++i) {
     gdjs.New_32sceneCode.GDPlantObjects2[i].setAnimationName("Attack");
