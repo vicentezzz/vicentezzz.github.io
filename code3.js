@@ -41,6 +41,8 @@ gdjs.New_32scene2Code.GDNewObject2Objects1= [];
 gdjs.New_32scene2Code.GDNewObject2Objects2= [];
 gdjs.New_32scene2Code.GDachievementObjects1= [];
 gdjs.New_32scene2Code.GDachievementObjects2= [];
+gdjs.New_32scene2Code.GDNewObject4Objects1= [];
+gdjs.New_32scene2Code.GDNewObject4Objects2= [];
 
 gdjs.New_32scene2Code.conditionTrue_0 = {val:false};
 gdjs.New_32scene2Code.condition0IsTrue_0 = {val:false};
@@ -87,6 +89,32 @@ gdjs.New_32scene2Code.eventsList0(runtimeScene);} //End of subevents
 gdjs.copyArray(runtimeScene.getObjects("achievement"), gdjs.New_32scene2Code.GDachievementObjects1);
 {for(var i = 0, len = gdjs.New_32scene2Code.GDachievementObjects1.length ;i < len;++i) {
     gdjs.New_32scene2Code.GDachievementObjects1[i].setString("achievement:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(2)) + "/3");
+}
+}}
+
+}
+
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("NewObject4"), gdjs.New_32scene2Code.GDNewObject4Objects1);
+{for(var i = 0, len = gdjs.New_32scene2Code.GDNewObject4Objects1.length ;i < len;++i) {
+    gdjs.New_32scene2Code.GDNewObject4Objects1[i].setString("dead times:" + gdjs.evtTools.common.getVariableString(runtimeScene.getGame().getVariables().getFromIndex(3)));
+}
+}}
+
+}
+
+
+{
+
+
+{
+gdjs.copyArray(runtimeScene.getObjects("NewObject"), gdjs.New_32scene2Code.GDNewObjectObjects1);
+{for(var i = 0, len = gdjs.New_32scene2Code.GDNewObjectObjects1.length ;i < len;++i) {
+    gdjs.New_32scene2Code.GDNewObjectObjects1[i].setOpacity(50);
 }
 }}
 
@@ -140,6 +168,8 @@ gdjs.New_32scene2Code.GDNewObject2Objects1.length = 0;
 gdjs.New_32scene2Code.GDNewObject2Objects2.length = 0;
 gdjs.New_32scene2Code.GDachievementObjects1.length = 0;
 gdjs.New_32scene2Code.GDachievementObjects2.length = 0;
+gdjs.New_32scene2Code.GDNewObject4Objects1.length = 0;
+gdjs.New_32scene2Code.GDNewObject4Objects2.length = 0;
 
 gdjs.New_32scene2Code.eventsList1(runtimeScene);
 return;
