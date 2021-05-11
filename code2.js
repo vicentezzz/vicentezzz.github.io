@@ -67,6 +67,10 @@ gdjs.New_32scene52Code.GDcalloutObjects1= [];
 gdjs.New_32scene52Code.GDcalloutObjects2= [];
 gdjs.New_32scene52Code.GDcalloutObjects3= [];
 gdjs.New_32scene52Code.GDcalloutObjects4= [];
+gdjs.New_32scene52Code.GDlevelObjects1= [];
+gdjs.New_32scene52Code.GDlevelObjects2= [];
+gdjs.New_32scene52Code.GDlevelObjects3= [];
+gdjs.New_32scene52Code.GDlevelObjects4= [];
 gdjs.New_32scene52Code.GDJumpthruObjects1= [];
 gdjs.New_32scene52Code.GDJumpthruObjects2= [];
 gdjs.New_32scene52Code.GDJumpthruObjects3= [];
@@ -195,6 +199,10 @@ gdjs.New_32scene52Code.GDNewObject4Objects1= [];
 gdjs.New_32scene52Code.GDNewObject4Objects2= [];
 gdjs.New_32scene52Code.GDNewObject4Objects3= [];
 gdjs.New_32scene52Code.GDNewObject4Objects4= [];
+gdjs.New_32scene52Code.GDNewObject10Objects1= [];
+gdjs.New_32scene52Code.GDNewObject10Objects2= [];
+gdjs.New_32scene52Code.GDNewObject10Objects3= [];
+gdjs.New_32scene52Code.GDNewObject10Objects4= [];
 
 gdjs.New_32scene52Code.conditionTrue_0 = {val:false};
 gdjs.New_32scene52Code.condition0IsTrue_0 = {val:false};
@@ -1096,7 +1104,7 @@ gdjs.New_32scene52Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCol
 }if ( gdjs.New_32scene52Code.condition0IsTrue_0.val ) {
 {
 {gdjs.New_32scene52Code.conditionTrue_1 = gdjs.New_32scene52Code.condition1IsTrue_0;
-gdjs.New_32scene52Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9541084);
+gdjs.New_32scene52Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12191828);
 }
 }}
 if (gdjs.New_32scene52Code.condition1IsTrue_0.val) {
@@ -1139,6 +1147,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.New_32scene52Code.G
 }
 }{runtimeScene.getVariables().get("playerHealth").setNumber(100);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).add(1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "life lost sound.wav", false, 100, 1);
 }}
 
 }
@@ -1159,6 +1168,7 @@ gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.New_32scene52Code.G
 }{gdjs.evtTools.sound.playSound(runtimeScene, "life lost sound.wav", false, 100, 1);
 }{runtimeScene.getVariables().get("playerHealth").setNumber(100);
 }{runtimeScene.getGame().getVariables().getFromIndex(3).add(1);
+}{gdjs.evtTools.sound.playSound(runtimeScene, "life lost sound.wav", false, 100, 1);
 }
 { //Subevents
 gdjs.New_32scene52Code.eventsList16(runtimeScene);} //End of subevents
@@ -1221,6 +1231,7 @@ gdjs.New_32scene52Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButto
     gdjs.New_32scene52Code.GDstateObjects2[i].setAngle(0);
 }
 }{runtimeScene.getVariables().get("playerHealth").setNumber(100);
+}{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(0);
 }}
 
 }
@@ -1259,7 +1270,7 @@ gdjs.copyArray(runtimeScene.getObjects("sol"), gdjs.New_32scene52Code.GDsolObjec
 }
 
 
-};gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject11Objects1Objects = Hashtable.newFrom({"NewObject11": gdjs.New_32scene52Code.GDNewObject11Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject16Objects1Objects = Hashtable.newFrom({"NewObject16": gdjs.New_32scene52Code.GDNewObject16Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject13Objects1Objects = Hashtable.newFrom({"NewObject13": gdjs.New_32scene52Code.GDNewObject13Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.mapOf = Hashtable.newFrom({});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObjectObjects1Objects = Hashtable.newFrom({"NewObject": gdjs.New_32scene52Code.GDNewObjectObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject2Objects1Objects = Hashtable.newFrom({"NewObject2": gdjs.New_32scene52Code.GDNewObject2Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject2Objects1Objects = Hashtable.newFrom({"NewObject2": gdjs.New_32scene52Code.GDNewObject2Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject20Objects1Objects = Hashtable.newFrom({"NewObject20": gdjs.New_32scene52Code.GDNewObject20Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject20Objects1Objects = Hashtable.newFrom({"NewObject20": gdjs.New_32scene52Code.GDNewObject20Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.eventsList22 = function(runtimeScene) {
+};gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject11Objects1Objects = Hashtable.newFrom({"NewObject11": gdjs.New_32scene52Code.GDNewObject11Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject16Objects1Objects = Hashtable.newFrom({"NewObject16": gdjs.New_32scene52Code.GDNewObject16Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject13Objects1Objects = Hashtable.newFrom({"NewObject13": gdjs.New_32scene52Code.GDNewObject13Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.mapOf = Hashtable.newFrom({});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObjectObjects1Objects = Hashtable.newFrom({"NewObject": gdjs.New_32scene52Code.GDNewObjectObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObjectObjects1Objects = Hashtable.newFrom({"NewObject": gdjs.New_32scene52Code.GDNewObjectObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject2Objects1Objects = Hashtable.newFrom({"NewObject2": gdjs.New_32scene52Code.GDNewObject2Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject2Objects1Objects = Hashtable.newFrom({"NewObject2": gdjs.New_32scene52Code.GDNewObject2Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject20Objects1Objects = Hashtable.newFrom({"NewObject20": gdjs.New_32scene52Code.GDNewObject20Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObject20Objects1Objects = Hashtable.newFrom({"NewObject20": gdjs.New_32scene52Code.GDNewObject20Objects1});gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32scene52Code.GDPlayerHitBoxObjects1});gdjs.New_32scene52Code.eventsList22 = function(runtimeScene) {
 
 {
 
@@ -1837,9 +1848,23 @@ for(var i = 0, k = 0, l = gdjs.New_32scene52Code.GDstateObjects1.length;i<l;++i)
     }
 }
 gdjs.New_32scene52Code.GDstateObjects1.length = k;}if (gdjs.New_32scene52Code.condition0IsTrue_0.val) {
+{runtimeScene.getGame().getVariables().getFromIndex(4).setNumber(1);
+}}
+
+}
+
+
+{
+
+
+gdjs.New_32scene52Code.condition0IsTrue_0.val = false;
+{
+gdjs.New_32scene52Code.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getGame().getVariables().getFromIndex(4)) == 1;
+}if (gdjs.New_32scene52Code.condition0IsTrue_0.val) {
 gdjs.copyArray(runtimeScene.getObjects("Health"), gdjs.New_32scene52Code.GDHealthObjects1);
 gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.New_32scene52Code.GDPlayerObjects1);
 gdjs.copyArray(runtimeScene.getObjects("score"), gdjs.New_32scene52Code.GDscoreObjects1);
+gdjs.copyArray(runtimeScene.getObjects("state"), gdjs.New_32scene52Code.GDstateObjects1);
 {for(var i = 0, len = gdjs.New_32scene52Code.GDPlayerObjects1.length ;i < len;++i) {
     gdjs.New_32scene52Code.GDPlayerObjects1[i].getBehavior("Health").SetHealth(999999, (typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : undefined));
 }
@@ -1848,6 +1873,9 @@ gdjs.copyArray(runtimeScene.getObjects("score"), gdjs.New_32scene52Code.GDscoreO
 }
 }{for(var i = 0, len = gdjs.New_32scene52Code.GDHealthObjects1.length ;i < len;++i) {
     gdjs.New_32scene52Code.GDHealthObjects1[i].setString("Health:" + "99999");
+}
+}{for(var i = 0, len = gdjs.New_32scene52Code.GDstateObjects1.length ;i < len;++i) {
+    gdjs.New_32scene52Code.GDstateObjects1[i].setAngle(180);
 }
 }
 { //Subevents
@@ -1946,6 +1974,7 @@ gdjs.New_32scene52Code.GDNewObjectObjects1.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObjectObjects1Objects, gdjs.random(700), -(350), "");
 }{gdjs.evtTools.runtimeScene.resetTimer(runtimeScene, "could");
+}{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.New_32scene52Code.mapOfGDgdjs_46New_9532scene52Code_46GDNewObjectObjects1Objects, gdjs.random(700), -(350), "");
 }}
 
 }
@@ -2129,6 +2158,10 @@ gdjs.New_32scene52Code.GDcalloutObjects1.length = 0;
 gdjs.New_32scene52Code.GDcalloutObjects2.length = 0;
 gdjs.New_32scene52Code.GDcalloutObjects3.length = 0;
 gdjs.New_32scene52Code.GDcalloutObjects4.length = 0;
+gdjs.New_32scene52Code.GDlevelObjects1.length = 0;
+gdjs.New_32scene52Code.GDlevelObjects2.length = 0;
+gdjs.New_32scene52Code.GDlevelObjects3.length = 0;
+gdjs.New_32scene52Code.GDlevelObjects4.length = 0;
 gdjs.New_32scene52Code.GDJumpthruObjects1.length = 0;
 gdjs.New_32scene52Code.GDJumpthruObjects2.length = 0;
 gdjs.New_32scene52Code.GDJumpthruObjects3.length = 0;
@@ -2257,6 +2290,10 @@ gdjs.New_32scene52Code.GDNewObject4Objects1.length = 0;
 gdjs.New_32scene52Code.GDNewObject4Objects2.length = 0;
 gdjs.New_32scene52Code.GDNewObject4Objects3.length = 0;
 gdjs.New_32scene52Code.GDNewObject4Objects4.length = 0;
+gdjs.New_32scene52Code.GDNewObject10Objects1.length = 0;
+gdjs.New_32scene52Code.GDNewObject10Objects2.length = 0;
+gdjs.New_32scene52Code.GDNewObject10Objects3.length = 0;
+gdjs.New_32scene52Code.GDNewObject10Objects4.length = 0;
 
 gdjs.New_32scene52Code.eventsList22(runtimeScene);
 return;
