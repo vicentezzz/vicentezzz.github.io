@@ -20,6 +20,9 @@ gdjs.New_32scene3Code.GDPlayerBulletObjects3= [];
 gdjs.New_32scene3Code.GDbackgrpundObjects1= [];
 gdjs.New_32scene3Code.GDbackgrpundObjects2= [];
 gdjs.New_32scene3Code.GDbackgrpundObjects3= [];
+gdjs.New_32scene3Code.GDdiedtimesObjects1= [];
+gdjs.New_32scene3Code.GDdiedtimesObjects2= [];
+gdjs.New_32scene3Code.GDdiedtimesObjects3= [];
 gdjs.New_32scene3Code.GDNewObject6Objects1= [];
 gdjs.New_32scene3Code.GDNewObject6Objects2= [];
 gdjs.New_32scene3Code.GDNewObject6Objects3= [];
@@ -29,6 +32,18 @@ gdjs.New_32scene3Code.GDNewObject8Objects3= [];
 gdjs.New_32scene3Code.GDNewObject7Objects1= [];
 gdjs.New_32scene3Code.GDNewObject7Objects2= [];
 gdjs.New_32scene3Code.GDNewObject7Objects3= [];
+gdjs.New_32scene3Code.GDNewObject3Objects1= [];
+gdjs.New_32scene3Code.GDNewObject3Objects2= [];
+gdjs.New_32scene3Code.GDNewObject3Objects3= [];
+gdjs.New_32scene3Code.GDcheatObjects1= [];
+gdjs.New_32scene3Code.GDcheatObjects2= [];
+gdjs.New_32scene3Code.GDcheatObjects3= [];
+gdjs.New_32scene3Code.GDtimelengthObjects1= [];
+gdjs.New_32scene3Code.GDtimelengthObjects2= [];
+gdjs.New_32scene3Code.GDtimelengthObjects3= [];
+gdjs.New_32scene3Code.GDcalloutObjects1= [];
+gdjs.New_32scene3Code.GDcalloutObjects2= [];
+gdjs.New_32scene3Code.GDcalloutObjects3= [];
 gdjs.New_32scene3Code.GDPlatformObjects1= [];
 gdjs.New_32scene3Code.GDPlatformObjects2= [];
 gdjs.New_32scene3Code.GDPlatformObjects3= [];
@@ -127,7 +142,7 @@ gdjs.New_32scene3Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColl
 }if ( gdjs.New_32scene3Code.condition0IsTrue_0.val ) {
 {
 {gdjs.New_32scene3Code.conditionTrue_1 = gdjs.New_32scene3Code.condition1IsTrue_0;
-gdjs.New_32scene3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(9149068);
+gdjs.New_32scene3Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11044956);
 }
 }}
 if (gdjs.New_32scene3Code.condition1IsTrue_0.val) {
@@ -205,7 +220,7 @@ gdjs.New_32scene3Code.condition0IsTrue_0.val = false;
 {
 gdjs.New_32scene3Code.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonReleased(runtimeScene, "Left");
 }if (gdjs.New_32scene3Code.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "New scene", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "New scene5", false);
 }}
 
 }
@@ -264,6 +279,19 @@ gdjs.New_32scene3Code.eventsList2(runtimeScene);} //End of subevents
 }
 
 
+{
+
+
+gdjs.New_32scene3Code.condition0IsTrue_0.val = false;
+{
+gdjs.New_32scene3Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+}if (gdjs.New_32scene3Code.condition0IsTrue_0.val) {
+{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Caketown 1.mp3", 1, true, 100, 1);
+}}
+
+}
+
+
 };
 
 gdjs.New_32scene3Code.func = function(runtimeScene) {
@@ -290,6 +318,9 @@ gdjs.New_32scene3Code.GDPlayerBulletObjects3.length = 0;
 gdjs.New_32scene3Code.GDbackgrpundObjects1.length = 0;
 gdjs.New_32scene3Code.GDbackgrpundObjects2.length = 0;
 gdjs.New_32scene3Code.GDbackgrpundObjects3.length = 0;
+gdjs.New_32scene3Code.GDdiedtimesObjects1.length = 0;
+gdjs.New_32scene3Code.GDdiedtimesObjects2.length = 0;
+gdjs.New_32scene3Code.GDdiedtimesObjects3.length = 0;
 gdjs.New_32scene3Code.GDNewObject6Objects1.length = 0;
 gdjs.New_32scene3Code.GDNewObject6Objects2.length = 0;
 gdjs.New_32scene3Code.GDNewObject6Objects3.length = 0;
@@ -299,6 +330,18 @@ gdjs.New_32scene3Code.GDNewObject8Objects3.length = 0;
 gdjs.New_32scene3Code.GDNewObject7Objects1.length = 0;
 gdjs.New_32scene3Code.GDNewObject7Objects2.length = 0;
 gdjs.New_32scene3Code.GDNewObject7Objects3.length = 0;
+gdjs.New_32scene3Code.GDNewObject3Objects1.length = 0;
+gdjs.New_32scene3Code.GDNewObject3Objects2.length = 0;
+gdjs.New_32scene3Code.GDNewObject3Objects3.length = 0;
+gdjs.New_32scene3Code.GDcheatObjects1.length = 0;
+gdjs.New_32scene3Code.GDcheatObjects2.length = 0;
+gdjs.New_32scene3Code.GDcheatObjects3.length = 0;
+gdjs.New_32scene3Code.GDtimelengthObjects1.length = 0;
+gdjs.New_32scene3Code.GDtimelengthObjects2.length = 0;
+gdjs.New_32scene3Code.GDtimelengthObjects3.length = 0;
+gdjs.New_32scene3Code.GDcalloutObjects1.length = 0;
+gdjs.New_32scene3Code.GDcalloutObjects2.length = 0;
+gdjs.New_32scene3Code.GDcalloutObjects3.length = 0;
 gdjs.New_32scene3Code.GDPlatformObjects1.length = 0;
 gdjs.New_32scene3Code.GDPlatformObjects2.length = 0;
 gdjs.New_32scene3Code.GDPlatformObjects3.length = 0;
