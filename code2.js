@@ -222,7 +222,7 @@ gdjs.New_32scene52Code.eventsList0 = function(runtimeScene) {
 gdjs.New_32scene52Code.condition0IsTrue_0.val = false;
 {
 {gdjs.New_32scene52Code.conditionTrue_1 = gdjs.New_32scene52Code.condition0IsTrue_0;
-gdjs.New_32scene52Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(8164164);
+gdjs.New_32scene52Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11447100);
 }
 }if (gdjs.New_32scene52Code.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
@@ -1104,7 +1104,7 @@ gdjs.New_32scene52Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCol
 }if ( gdjs.New_32scene52Code.condition0IsTrue_0.val ) {
 {
 {gdjs.New_32scene52Code.conditionTrue_1 = gdjs.New_32scene52Code.condition1IsTrue_0;
-gdjs.New_32scene52Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(12191828);
+gdjs.New_32scene52Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11464748);
 }
 }}
 if (gdjs.New_32scene52Code.condition1IsTrue_0.val) {
