@@ -196,7 +196,7 @@ gdjs.New_32sceneCode.eventsList0 = function(runtimeScene) {
 gdjs.New_32sceneCode.condition0IsTrue_0.val = false;
 {
 {gdjs.New_32sceneCode.conditionTrue_1 = gdjs.New_32sceneCode.condition0IsTrue_0;
-gdjs.New_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11349260);
+gdjs.New_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11650916);
 }
 }if (gdjs.New_32sceneCode.condition0IsTrue_0.val) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
@@ -1201,7 +1201,7 @@ gdjs.New_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesColli
 }if ( gdjs.New_32sceneCode.condition0IsTrue_0.val ) {
 {
 {gdjs.New_32sceneCode.conditionTrue_1 = gdjs.New_32sceneCode.condition1IsTrue_0;
-gdjs.New_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11367676);
+gdjs.New_32sceneCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(11653348);
 }
 }}
 if (gdjs.New_32sceneCode.condition1IsTrue_0.val) {
@@ -1295,7 +1295,7 @@ gdjs.New_32sceneCode.GDPlayerHitBoxObjects1.length = k;}if (gdjs.New_32sceneCode
 
 };gdjs.New_32sceneCode.eventsList18 = function(runtimeScene) {
 
-};gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.New_32sceneCode.GDPlayerObjects1});gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDPlantObjects1Objects = Hashtable.newFrom({"Plant": gdjs.New_32sceneCode.GDPlantObjects1});gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDPlantObjects1Objects = Hashtable.newFrom({"Plant": gdjs.New_32sceneCode.GDPlantObjects1});gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDPlayerHitBoxObjects1Objects = Hashtable.newFrom({"PlayerHitBox": gdjs.New_32sceneCode.GDPlayerHitBoxObjects1});gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDstateObjects1Objects = Hashtable.newFrom({"state": gdjs.New_32sceneCode.GDstateObjects1});gdjs.New_32sceneCode.eventsList19 = function(runtimeScene) {
+};gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDPlayerObjects1Objects = Hashtable.newFrom({"Player": gdjs.New_32sceneCode.GDPlayerObjects1});gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDPlantObjects1Objects = Hashtable.newFrom({"Plant": gdjs.New_32sceneCode.GDPlantObjects1});gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDstateObjects1Objects = Hashtable.newFrom({"state": gdjs.New_32sceneCode.GDstateObjects1});gdjs.New_32sceneCode.eventsList19 = function(runtimeScene) {
 
 {
 
@@ -1938,21 +1938,6 @@ gdjs.New_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.distanceTest(
 /* Reuse gdjs.New_32sceneCode.GDPlantObjects1 */
 {gdjs.evtTools.camera.setCameraX(runtimeScene, (( gdjs.New_32sceneCode.GDPlantObjects1.length === 0 ) ? 0 :gdjs.New_32sceneCode.GDPlantObjects1[0].getPointX("")) - 200, "", 0);
 }{gdjs.evtTools.camera.setCameraY(runtimeScene, 300, "", 0);
-}}
-
-}
-
-
-{
-
-gdjs.copyArray(runtimeScene.getObjects("Plant"), gdjs.New_32sceneCode.GDPlantObjects1);
-gdjs.copyArray(runtimeScene.getObjects("PlayerHitBox"), gdjs.New_32sceneCode.GDPlayerHitBoxObjects1);
-
-gdjs.New_32sceneCode.condition0IsTrue_0.val = false;
-{
-gdjs.New_32sceneCode.condition0IsTrue_0.val = gdjs.evtTools.object.distanceTest(gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDPlantObjects1Objects, gdjs.New_32sceneCode.mapOfGDgdjs_46New_9532sceneCode_46GDPlayerHitBoxObjects1Objects, 1000, false);
-}if (gdjs.New_32sceneCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.sound.playMusicOnChannel(runtimeScene, "Heroic Demise (New).mp3", 1, true, 20, 1);
 }}
 
 }
